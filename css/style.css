@@ -1,0 +1,43 @@
+.bg-dgrey {
+    background-color: #606060;
+    }
+
+.stagsans {
+    font-family: "Stag Sans Web";
+    font-weight: 400;
+}
+
+.bg-lgrey {
+    color: #f2f2f2;
+}
+
+.stepper.stepper-links .stepper-nav .stepper-item.current .stepper-title {
+    color: #00e556;
+}
+
+.stepper.stepper-links .stepper-nav .stepper-item.current::after {
+    background-color: #00e556;
+}
+
+.btn-check:checked + .btn.btn-outline.btn-outline-dashed.btn-outline-default {
+    border-color: #00e556;
+    background-color: #00e5581c !important;
+    color: #00e556 !important;
+}
+.btn-check:checked + .btn.btn-outline.btn-outline-dashed.btn-outline-default .svg-icon svg [fill]:not(.permanent):not(g) {
+    fill: #00e556;
+}
+
+.btn-check:active + .btn.btn-outline.btn-outline-dashed.btn-outline-default, .btn-check:checked + .btn.btn-outline.btn-outline-dashed.btn-outline-default, .btn.btn-outline.btn-outline-dashed.btn-outline-default.active, .btn.btn-outline.btn-outline-dashed.btn-outline-default.show, .btn.btn-outline.btn-outline-dashed.btn-outline-default:active:not(.btn-active), .btn.btn-outline.btn-outline-dashed.btn-outline-default:focus:not(.btn-active), .btn.btn-outline.btn-outline-dashed.btn-outline-default:hover:not(.btn-active), .show > .btn.btn-outline.btn-outline-dashed.btn-outline-default{
+    color: #00e556;
+    border-color: #00e556;
+    background-color: #00e5581c !important;
+}
+
+.style1 {
+    text-align: right;
+}
+
+.style2 {
+    text-align: center;
+}
